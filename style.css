@@ -1,0 +1,149 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.recipe-btn {
+  background-color: #ff8000;
+  color: white;
+  border: black;
+}
+
+.recipe-btn:hover {
+  background-color: #ff8000;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.recipe-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.recipe-link a {
+  color: white;
+  background-color: #ff8000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.recipe-link a:hover {
+  background-color: #ff8000;
+}
+#search-btn {
+  color: white;
+  background-color: #ff8000;
+  border: 2px solid #ff8000; 
+  border-radius: 5px;
+  padding: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s; 
+}
+
+#search-btn:focus {
+  outline: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+#search-input {
+  border: 2px solid black; 
+  border-radius: 5px; 
+  padding: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  transition: box-shadow 0.3s; 
+}
+
+#search-input:focus {
+  outline: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav .nav-link {
+  margin-right: 20px; 
+}
+
+.navbar-nav {
+  margin-left: -15px; 
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+    margin-right: 10px; 
+  }
+
+  .navbar-nav {
+    margin-left: 0; 
+  }
+}
+.nav-link {
+  font-weight: bold;
+  color: #343a40;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff8000;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff8000;
+}
+
+.navbar-brand:hover {
+  color: #e06800;
+}
+.card img {
+  height: 150px; 
+  object-fit: cover;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.btn-add-to-cart {
+  background-color: #28a745;
+  color: white;
+  margin-bottom: 10px;
+  border: none; 
+}
+
+.btn-add-to-cart:hover {
+  background-color: #28a745; 
+  color: white;
+}
+
+
+.btn-add-to-cart[disabled] {
+  background-color: red;
+  color: black;
+  cursor: not-allowed;
+}
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-size: 0.9rem;
+  border-top: 1px solid #dee2e6;
+}
